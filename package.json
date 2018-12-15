@@ -1,0 +1,43 @@
+{
+  "name": "colors",
+  "version": "1.0.0",
+  "description": "what's your favorite color?",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack -w",
+    "server": "nodemon ./app/server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinStotts/colors.git"
+  },
+  "keywords": [
+    "color",
+    "favorite",
+    "love",
+    "joy",
+    "happiness"
+  ],
+  "author": "austin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/austinStotts/colors/issues"
+  },
+  "homepage": "https://github.com/austinStotts/colors#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "~7",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^1.18.9",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
